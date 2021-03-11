@@ -11,11 +11,17 @@ export default function App() {
          <Image style = {{width : 200,height:200, borderRadius: 100}} source = {{uri:"https://avatars.githubusercontent.com/u/57321409?s=460&u=439a6cf61a9c94efdcaaec93e8e5cce79fb418a0&v=4" }} /> 
       
       <Text style = {{fontWeight : 'bold',fontSize : 30}}>Abdul Qadeer </Text>
+      <Text>
       Address : House No 310 block 13/A gulshan e iqbal Karachi
-      Email : aqsolangi009@gmail.com <br />
+      Email : aqsolangi009@gmail.com 
       Mobile  : 03058875502
+      </Text>
+    
       <Text style = {{fontWeight : "bold",fontSize : 30,marginRight : 250}}>Objective </Text>
-      <View>Iam looking for a suitable  position where i can utilize my technical skills</View>
+      <Text>Seeking for a challenging position, where i can start and us my skillfull hand knowledge of computer
+         oriented works
+         in information technology field and help to grow the company to achieve its goal
+         where i may flourish my career and the best outcome of my capabilities </Text>
       <Text style = {{fontSize : 30,fontWeight :"bold",marginRight:90}}>Personal Information</Text>
       <Text style = {styles.info} style = {{marginRight:240}}>Name : Abdul Qadeer
           
@@ -27,20 +33,21 @@ export default function App() {
           <Text style = {{marginRight:220}}>Date of Birth : 06 jan 1999
           
           </Text> 
-          <View style = {styles.edu}>
+          <View style = {styles.edu}> 
+            <Text  style = {styles.edu}>
             Education
-          
+            </Text>
           <Text>Matriculation : Board of intermediate and secondary education Sukkur</Text>
           <Text>Intermediate : Board of intermediate and secondary education Sukkur</Text>
-          <Text>Bachelor : dawood University of Engineering and Technology Karachi</Text>
+          <Text>Bachelor : Dawood University of Engineering and Technology Karachi</Text>
           
-          <br />
+        
           <Text style = {styles.certificates}>Certifications</Text>
           <Text>CCNA Routing and Switching</Text>
           <Text>Cisco crtified in Python with numpy and Pandas</Text>
           <Text>Cisco Certified in Libux</Text>
           <Text>Microsoft office specialist</Text>
-          <br />
+          
           <Text style = {styles.skills} >Technical skills</Text>
           <Text>Web and Mobile app developer</Text>
           <Text>Troublshoting </Text>
